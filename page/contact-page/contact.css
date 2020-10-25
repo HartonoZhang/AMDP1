@@ -1,0 +1,159 @@
+.contact-side {
+  padding: 90px 0 140px 0;
+  text-align: center;
+}
+
+.contact-side h1 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.contact-message {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.message {
+  padding: 20px;
+}
+
+.message p {
+  text-align: left;
+  padding: 0 0 10px 20px;
+}
+
+.background-color {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 840px;
+  background-color: rgb(248, 246, 246);
+}
+
+.contact {
+  max-width: 460px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+textarea {
+  width: 370px;
+  outline: none;
+  padding: 10px;
+}
+
+.name-address {
+  width: 370px;
+  text-align: left;
+  padding: 25px;
+}
+
+input {
+  width: 100%;
+}
+
+.contact-email,
+.contact-name {
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  background-color: rgb(248, 246, 246);
+}
+
+.send-message {
+  float: right;
+  margin: 10px 20px;
+  padding: 12px 40px;
+  color: white;
+  background-color: rgb(0, 153, 255);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.contact p {
+  padding-bottom: 40px;
+}
+
+.contact h3 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.facebook span {
+  color: blue;
+}
+
+@media only screen and (max-width: 1100px) {
+  .contact-message {
+    grid-template-columns: auto;
+  }
+
+  .contact {
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .background-color {
+    width: 100%;
+  }
+
+  .contact-side {
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .background-color {
+    grid-template-columns: auto;
+  }
+
+  .name-address {
+    margin: auto;
+    text-align: center;
+  }
+
+  .message {
+    margin: auto;
+  }
+
+  .send-message {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .contact-message {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .background-color {
+    display: inline-block;
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .name-address {
+    width: 100%;
+  }
+
+  .send-message {
+    float: none;
+    margin: auto;
+    width: 100%;
+  }
+}

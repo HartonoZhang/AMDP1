@@ -1,0 +1,103 @@
+@media only screen and (max-width: 600px) {
+  .register-login {
+    width: 100%;
+    display: inline;
+    text-align: center;
+    margin: auto;
+    float: none;
+  }
+
+  .register-login img {
+    float: none;
+    display: block;
+  }
+
+  .logo {
+    margin: auto;
+    padding-left: 0;
+  }
+
+  .login-btn {
+    float: none;
+    padding: 10px 32px;
+    margin: 10px 0px 0px 50px;
+  }
+
+  .register-btn {
+    float: none;
+    padding: 10px 20px;
+    margin: 10px 50px 0px 0px;
+  }
+
+  .email {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .register-login {
+    width: 100%;
+    display: inline;
+  }
+
+  .logo {
+    padding-left: 10px;
+  }
+
+  .email {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navigation a {
+    font-size: 16px;
+    padding: 18px 40px;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    padding: 18px 52px;
+  }
+
+  .dropdown-content a {
+    font-size: 16px;
+    padding: 18px 0;
+  }
+
+  .email {
+    width: 100%;
+    text-align: center;
+  }
+
+  .icon-place {
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .subscribe {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .navigation a,
+  .dropdown-content a,
+  .dropdown-content,
+  .dropbtn:hover,
+  .dropbtn,
+  .dropdown {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .login-btn,
+  .register-btn {
+    margin: auto;
+  }
+}

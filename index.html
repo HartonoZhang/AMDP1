@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/styles/styles.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/styles/home.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/styles/responsive.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="register-login">
+        <img class="logo" src="./assets/images/logo/logo1.gif">
+        <div class="style-btn">
+          <button id="register-page" class="register-btn btn">Register</button>
+          <button id="login-page" class="login-btn btn">Login</button>
+        </div>
+      </div>
+      <div class="navigation">
+        <a id="home-page" class="active">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Product</button>
+          <div class="dropdown-content">
+            <a id="family-car-page">Family Car</a>
+            <a id="cormmercial-car-page">Commercial Car</a>
+            <a id="luxury-car-page">Luxury Car</a>
+          </div>
+        </div> 
+        <a id="contact-page">Contact</a>
+      </div>
+    </header>
+    <main>
+      <div class="content-side">
+        <div class="container">
+            <h1>WELLCOME TO <span class="span1">CAR</span>ONLINE RENTALS</h1>
+            <h2><span class="span2">A place where you can rent a comfy car</span></h2>
+            <button id="content-page" class="content-btn">Start Book!</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="social-icon">
+        <div class="container">
+          <div class="icon-place">
+            <a class="ig-icon" href="https://www.instagram.com/hartonozh_/?hl=en" target="_blank">
+              <img src="./assets/images/logo/instagram.png">
+            </a>
+            <a class="yt-icon" href="https://www.youtube.com/channel/UCKrbqn-1Hcgy3mez6_cr9xg?view_as=subscriber" target="_blank">
+              <img src="./assets/images/logo/youtube.png">
+            </a>
+            <a href="https://twitter.com/HartonoZh" target="_blank">
+              <img src="./assets/images/logo/twitter.png">
+            </a>
+            <a href="https://www.facebook.com/hartono.zh.9" target="_blank">
+              <img src="./assets/images/logo/facebook.png">
+            </a>
+          </div>
+        </div>
+        <div class="subscribe">
+          <h3>Subscribe Our Newsletter</h3>
+          <input id="email" class="email" type="email" name="email" placeholder="Your Email">
+          <button onclick="submitedEmail()" class="btn-subscribe">Subscribe</button>
+        </div>
+        <div class="text-footer">
+          <p>&#169Copyright 2020 by [Hartono Zhang]</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./assets/js/home.js"></script>
+</html>

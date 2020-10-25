@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.family-product-side {
+  padding: 70px 0 160px 0;
+  text-align: center;
+}
+
+.text-family-product h1 {
+  font-family: "Open Sans";
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.text-family-product p {
+  max-width: 1030px;
+  margin: 0 auto;
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+.all-car-image {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 18px;
+  margin: 40px auto;
+  max-width: 950px;
+}
+
+.family-car img {
+  height: 120px;
+  width: 180px;
+  margin: 20px 0;
+}
+
+.luxury-car img {
+  height: 180px;
+  width: 180px;
+}
+
+.cormmercial-car img {
+  height: 180px;
+  width: 180px;
+}
+
+.all-car-image > article {
+  text-align: center;
+  padding: 25px 0;
+  border: 3px solid black;
+}
+
+.family-car p,
+.luxury-car p,
+.cormmercial-car p {
+  margin: 24px 0 10px 0;
+}
+
+@media only screen and (max-width: 950px) {
+  .all-car-image {
+    grid-template-columns: auto auto;
+    margin: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .family-product-side {
+    padding: 70px 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .all-car-image {
+    grid-template-columns: auto;
+  }
+}

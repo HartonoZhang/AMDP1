@@ -1,0 +1,83 @@
+.register-side {
+  padding: 140px 0 160px 0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.page-side {
+  margin: auto;
+  max-width: 750px;
+}
+
+.page-side p {
+  margin: 30px 0 10px 0;
+  text-align: left;
+}
+
+.gender {
+  text-align: left;
+}
+
+.side-gender {
+  margin-left: 20px;
+}
+
+.register-email,
+.register-name {
+  border: none;
+  border-bottom: 2px solid black;
+  text-decoration: none;
+  outline: none;
+  width: 100%;
+  margin-top: 40px;
+  font-size: 17px;
+}
+
+button {
+  color: white;
+  background-color: rgb(87, 97, 240);
+  padding: 6px 20px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 45px;
+  outline: none;
+}
+
+.register-address {
+  width: 100%;
+}
+
+select {
+  text-align: left;
+  width: 100%;
+  padding: 8px;
+  margin-top: 20px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: lighter;
+  outline: none;
+}
+
+textarea {
+  margin-top: 20px;
+  border-radius: 7px;
+  padding: 8px;
+  outline: none;
+}
+
+.error {
+  color: red;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .register-side {
+    padding: 100px 0 100px 0;
+  }
+}
