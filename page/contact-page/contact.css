@@ -102,6 +102,7 @@ a {
   .contact {
     text-align: center;
     margin: 20px auto;
+    padding-left: 0;
   }
 
   .background-color {
